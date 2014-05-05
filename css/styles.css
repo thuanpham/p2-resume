@@ -1,4 +1,19 @@
 /* Your Website Styles */
+li {
+  list-style: none;
+ float: left;
+  margin: 0 4px 0 4px;
+}
+
+nav a:link,
+nav a:visited  {
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 10px 10px 32px;
+}
+
+
 
 
 /* Show Grid */
