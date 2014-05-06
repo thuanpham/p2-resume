@@ -4,6 +4,25 @@ li {
  float: left;
   margin: 0 4px 0 4px;
 }
+body {
+	background: url("../img/grid-bg.png");
+}
+h1{
+	color: gold;
+}
+h2{
+	font-family: 'Open Sans', 'sans-serif';
+	text-shadow: 5px 5px 5px red;
+	color: blue;
+}
+h3{
+	color: red;
+}
+
+img{
+	float: left;
+	clear: left;
+}
 
 nav a:link,
 nav a:visited  {
@@ -12,8 +31,25 @@ nav a:visited  {
   text-decoration: none;
   padding: 10px 10px 10px 32px;
 }
+nav a:hover,
+nav a:active {
+	color: rgb(13, 202, 250);
+}
 
+nav a:focus {
+  border: 1px dotted #000;
+}
 
+#po a:hover {
+	background: url("../img/b1.png") no-repeat left center;
+}
+
+#bio a:hover {
+	background: url("../img/b2.png") no-repeat left center;
+}
+#home a:hover {
+	background: url("../img/b2.png") no-repeat left center;
+}
 
 
 /* Show Grid */
